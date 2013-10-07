@@ -12,11 +12,13 @@
             "homepage": "http://www.jsdunn.info"
         }
     ],
+    
     "require": {
         "php": ">=5.3.0",
-        "symfony/console": "2.0.*"
+        "symfony/console": "2.3.*"
     },
     "autoload": {
-        "psr-0": {"FedEx": "src/"}
-    }
+        "classmap": ["src"]
+    },
+    "include-path": ["src"],
 }
